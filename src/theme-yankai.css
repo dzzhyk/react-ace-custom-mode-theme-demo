@@ -1,0 +1,23 @@
+/* autocomplete width */
+.ace_editor.ace_autocomplete {
+    width: 40vw;
+}
+
+
+/* override highlight style for custom yankai mode */
+.ace_function {
+    color: orangered !important;
+    font-weight: bold
+}
+
+.ace_constant {
+    color: blue !important;
+}
+
+.ace_operator {
+    color: red !important;
+}
+
+.ace_string {
+    color: green !important;
+}
