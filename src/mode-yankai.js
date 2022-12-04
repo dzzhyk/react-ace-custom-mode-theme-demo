@@ -3,6 +3,8 @@ load custom yankai_highlight_rules for me.
 this mode is based on python_highlight_rules, you can find in node_modules/ace-builds/src/mode-python.js
  */
 
+import ace from "ace-builds/src-min-noconflict/ace"
+
 ace.define("ace/mode/yankai_highlight_rules", ["require", "exports", "module", "ace/lib/oop", "ace/mode/text_highlight_rules"], function (ace_require, exports, module) {
     var oop = ace_require("../lib/oop");
     var TextHighlightRules = ace_require("./text_highlight_rules").TextHighlightRules;
